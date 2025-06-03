@@ -1,0 +1,43 @@
+int trigPin = 2; // Sensor Trig pin connected to Arduino pin D3  
+int echoPin = 3; // Sensor Echo pin connected to Arduino pin D2
+int dataOut = 13; // RF Module connects here
+long duration, Distance;
+
+void setup() {
+  Serial.begin(115200);
+ pinMode (trigPin, OUTPUT);
+ pinMode (echoPin, INPUT);
+ pinMode(dataOut, OUTPUT);
+}
+void loop(){
+digitalWrite(trigPin, LOW);  delayMicroseconds (2);
+digitalWrite(trigPin, HIGH);  delayMicroseconds(10);
+digitalWrite(trigPin, LOW);
+duration = pulseIn(echoPin, HIGH);
+Distance = (duration/2) / 74;        // Distance in Inches
+if (Distance < 20) {                 // When an object is at a close proximity
+ digitalWrite(dataOut, LOW);
+ delay(200);
+}
+else{
+digitalWrite(dataOut, HIGH);
+delay(200);
+}
+Serial.println(Distance);
+}
+
+## Program for checking the transmitter
+#include <RCSwitch.h>
+
+RCSwitch mySwitch = RCSwitch();
+
+void setup() {
+    mySwitch.enableTransmit(2);
+}
+
+void loop() {
+    mySwitch.send(B0100, 4);
+    delay(1000); 
+    mySwitch.send(B1000, 4);
+    delay(1000); 
+}
