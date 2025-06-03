@@ -37,7 +37,7 @@ This design allows creating a *wireless doorbell system* with *contactless trigg
 - Scheme (https://github.com/Akez76/Arduino-Doorbell/blob/main/Wireless%20Contactless%20Doorbell%20scheme.jpeg)
 - (https://github.com/Akez76/Arduino-Doorbell/blob/main/Arduino%20doorbell1.jpeg)
 - (https://github.com/Akez76/Arduino-Doorbell/blob/main/Arduino%20doorbell2.jpeg)
-- (https://github.com/Akez76/Arduino-Doorbell/blob/main/Arduino%20doorbell2.jpeg)
+- (https://github.com/Akez76/Arduino-Doorbell/blob/main/Arduino%20doorbell3.jpeg)
 - (https://github.com/Akez76/Arduino-Doorbell/blob/main/Arduino%20doorbell2.jpeg)
 - (https://github.com/Akez76/Arduino-Doorbell/blob/main/Arduino%20doorbell2.jpeg)
 
