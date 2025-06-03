@@ -39,7 +39,7 @@ This design allows creating a *wireless doorbell system* with *contactless trigg
 - (https://github.com/Akez76/Arduino-Doorbell/blob/main/Arduino%20doorbell2.jpeg)
 - (https://github.com/Akez76/Arduino-Doorbell/blob/main/Arduino%20doorbell3.jpeg)
 - (https://github.com/Akez76/Arduino-Doorbell/blob/main/Arduino%20doorbell4.jpeg)
-- (https://github.com/Akez76/Arduino-Doorbell/blob/main/Arduino%20doorbell2.jpeg)
+- (https://github.com/Akez76/Arduino-Doorbell/blob/main/Arduino%20doorbell5.jpeg)
 
 # 6.Skills Learned
 - Wireless communication using RF (434 MHz) modules  
